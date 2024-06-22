@@ -28,15 +28,15 @@ The primary objective of this project is to develop a model capable of reducing 
      - **Test Set**: 0.014147
 
 ## Final results
-<center>**This is the visualization of the audio corrupted by rain noise**</center>
+**<center>This is the visualization of the audio corrupted by rain noise</center>**
 
 ![noised](https://github.com/piotrwojslawski/AudioDenoisingModel/assets/55345644/776799e3-77c3-408e-8fc8-0af49f5fe1a2)
 
-<center>**This is the visualization of the same audio after undergoing a denoising process**</center>
+**<center>**This is the visualization of the same audio after undergoing a denoising process**</center>**
 
 ![denoised](https://github.com/piotrwojslawski/AudioDenoisingModel/assets/55345644/dafb838a-d029-4d41-97ff-179dd40ecf2e)
 
-<center>**This is the visualization of the original audio before any noise was added**</center>
+**<center>**This is the visualization of the original audio before any noise was added**</center>**
 
 ![clean](https://github.com/piotrwojslawski/AudioDenoisingModel/assets/55345644/183c9267-3f68-4963-9a60-d99f26cd4050)
 
