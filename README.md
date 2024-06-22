@@ -23,11 +23,20 @@ The primary objective of this project is to develop a model capable of reducing 
 1. The autoencoder model was trained using an Adam optimizer, which dynamically adjusted the learning rate based on the batch size. The initial learning rate was set to adapt proportionally to the batch size relative to a base rate of 0.01. The model architecture comprised an input shape of (600, 264, 1), configured to reconstruct encoded representations through an encoder-decoder framework.
 2. During training, model checkpoints were employed to save the best-performing model based on validation loss. Early stopping was implemented to cease training if the validation loss did not improve after 20 epochs, ensuring efficient model convergence. Additionally, a learning rate reduction strategy was applied, reducing the learning rate by a factor of 0.5 if no improvement in validation loss was observed after 3 epochs.
 3. The model underwent training over 100 epochs with a batch size of 16. The best-performing model was selected based on validation loss. Post-training, the achieved mean squared errors were as follows:
-  - **Training Set**: 0.013817
-  - **Validation Set**: 0.013727
-  - **Test Set**: 0.014147
+     - **Training Set**: 0.013817
+     - **Validation Set**: 0.013727
+     - **Test Set**: 0.014147
 
 ## Final results
+**This is the visualization of the audio corrupted by rain noise**
+![noised](https://github.com/piotrwojslawski/AudioDenoisingModel/assets/55345644/776799e3-77c3-408e-8fc8-0af49f5fe1a2)
+
+**This is the visualization of the same audio after undergoing a denoising process**
+![denoised](https://github.com/piotrwojslawski/AudioDenoisingModel/assets/55345644/dafb838a-d029-4d41-97ff-179dd40ecf2e)
+
+**This is the visualization of the original audio before any noise was added**
+![clean](https://github.com/piotrwojslawski/AudioDenoisingModel/assets/55345644/183c9267-3f68-4963-9a60-d99f26cd4050)
+
 
 
    
